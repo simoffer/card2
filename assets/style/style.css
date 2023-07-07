@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #ddd;
+}
+
+section.main-box{
+    display: flex;
+    justify-content: center;
+}
+
+.header-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-cards img{
+    width: 300px;
+}
+
+.header-cards h1{
+    font-size: 30px;
+}
+
+.giftcard-box{
+    background: #fff;
+    width: 700px;
+}
+
+.giftcards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.giftcard img{
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.giftcard img:hover{
+    background: #929292;
+}
+
+.giftcard a{
+    text-decoration: none;
+}
+
+.giftcard a p{
+    position: relative;
+    bottom: 50px;
+    left: 65px;
+    font-size: 14px;
+    padding: 3px 0 3px 23px;
+    width: 70px;
+    background: rgb(194, 0, 0);
+    border-radius: 3px;
+    color: #fff;
+}
+
+.footer{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.footer p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #696969;
+}
+
+@media (max-width: 680px){
+    .giftcards{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 75px;
+    }
+    
+    .footer{
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px){
+    .giftcards{
+        margin-left: 50px;
+    }
+    
+    .footer p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 520px){
+    .giftcards{
+        margin-left: 30px;
+    }
+    
+    .footer{
+        width: 400px;
+    }
+}
+
+@media (max-width: 475px){
+    .giftcards{
+        margin-left: 20px;
+    }
+}
+
+
+@media (max-width: 450px){
+    .giftcards{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 80px;
+    }
+
+    .giftcard img{
+        width: 280px;
+    }
+
+    .giftcard a p{
+        bottom: 60px;
+        left: 90px;
+        font-size: 16px;
+        padding: 7px 0 7px 35px;
+        width: 100px;
+        border-radius: 3px;
+    }
+}
+
+@media (max-width: 420px){
+    .giftcards{
+        margin-left: 70px;
+    }
+
+    .footer{
+        width: 300px;
+    }
+
+    .footer p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px){
+    .giftcards{
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 380px){
+    .header-cards h1{
+        font-size: 25px;
+    }
+
+    .giftcards{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 365px){
+    .giftcards{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 350px){
+    .giftcards{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 330px){
+    .giftcards{
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 320px){
+    .giftcards{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 310px){
+    .giftcards{
+        margin-left: 15px;
+    }
+}
